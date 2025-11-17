@@ -4,243 +4,445 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Ask ANANTA</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
         }
+        
         .container {
-            max-width: 800px;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
         }
-        h1, h2, h3 {
-            font-weight: 700;
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
         }
+        
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+        
         h2 {
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 0.5rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-left: 4px solid #764ba2;
+            padding-left: 15px;
         }
+        
+        h3 {
+            color: #667eea;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
         li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #667eea;
+        }
+        
+        a {
+            color: #764ba2;
+            text-decoration: none;
+            border-bottom: 1px dotted #764ba2;
+        }
+        
+        a:hover {
+            color: #667eea;
+            border-bottom: 1px solid #667eea;
+        }
+        
+        .summary-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .summary-box h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-    <div class="container mx-auto p-6 sm:p-8 lg:p-12 bg-white shadow-md rounded-lg my-8">
-        <header class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Privacy Policy for Ask ANANTA</h1>
-            <p class="text-gray-500 mt-2">Last updated: October 12, 2025</p>
-        </header>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Ask ANANTA</h1>
+        <p class="last-updated"><strong>Last updated: January 2025</strong></p>
 
-        <main>
-            <p class="mb-6 text-center text-gray-600">This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Ask ANANTA mobile application (the "Service"). <strong>By using Ask ANANTA, you agree to the collection and use of information in accordance with this Privacy Policy.</strong></p>
+        <h2>Introduction</h2>
+        <p>Ask ANANTA ("we," "our," or "us") operates the Ask ANANTA mobile application (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service.</p>
+        <p>By using our Service, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Information We Collect</h2>
-
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Personal Information</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Chat Messages</strong>: We store your chat conversations with our AI assistant to provide contextual responses and maintain chat history.</li>
-                    <li><strong>Chat Names</strong>: We store custom chat names you create for organizing your conversations.</li>
-                    <li><strong>Usage Data</strong>: We collect information about how you interact with our app, including features used and session duration.</li>
-                </ul>
-
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Automatically Collected Information</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Device Information</strong>: Device type, operating system version, and app version.</li>
-                    <li><strong>Usage Analytics</strong>: App performance data, crash reports, and feature usage statistics.</li>
-                    <li><strong>Session Data</strong>: Chat session timestamps and conversation flow.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">How We Use Your Information</h2>
-                <p class="mb-4 text-gray-600">We use the collected information for the following purposes:</p>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Core App Functionality</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Chat Management</strong>: To maintain your chat history and provide contextual responses.</li>
-                    <li><strong>Session Management</strong>: To create new chat sessions and manage conversation flow.</li>
-                    <li><strong>Memory Management</strong>: To prevent data overflow and optimize app performance.</li>
-                </ul>
-
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">App Improvement</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Feature Development</strong>: To understand user needs and improve app functionality.</li>
-                    <li><strong>Performance Optimization</strong>: To enhance app speed and reliability.</li>
-                    <li><strong>Bug Fixes</strong>: To identify and resolve technical issues.</li>
-                </ul>
-
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">User Experience</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Personalization</strong>: To provide relevant spiritual guidance based on your questions.</li>
-                    <li><strong>Chat Organization</strong>: To help you manage and access your conversation history.</li>
-                    <li><strong>Quick Questions</strong>: To provide helpful suggestions for new users.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Data Storage and Security</h2>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Local Storage</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>SQLite Database</strong>: Your chat data is stored locally on your device.</li>
-                    <li><strong>SharedPreferences</strong>: App settings and user preferences are stored locally.</li>
-                    <li><strong>No Cloud Storage</strong>: We do not store your data on external servers.</li>
-                </ul>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Security Measures</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Local Encryption</strong>: Chat data is encrypted using Android's built-in security features.</li>
-                    <li><strong>No Data Transmission</strong>: Your conversations are not sent to external servers.</li>
-                    <li><strong>Device-Only Access</strong>: Only you can access your chat data on your device.</li>
-                </ul>
-            </section>
-
-             <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Data Sharing and Disclosure</h2>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">We Do NOT Share Your Data</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>No Third Parties</strong>: We do not share your personal information with third parties.</li>
-                    <li><strong>No Advertising Networks</strong>: We do not share data with advertising companies.</li>
-                    <li><strong>No Analytics Services</strong>: We do not use external analytics services.</li>
-                    <li><strong>No Social Media</strong>: We do not share data with social media platforms.</li>
-                </ul>
-
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Legal Requirements</h3>
-                <p class="text-gray-700">We may disclose your information only if required by law or to:</p>
-                <ul class="list-disc list-inside text-gray-700 space-y-2 mt-2">
-                    <li>Comply with legal obligations.</li>
-                    <li>Protect our rights and property.</li>
-                    <li>Prevent fraud or security issues.</li>
-                    <li>Protect user safety.</li>
-                </ul>
-            </section>
-            
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Your Rights and Choices</h2>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Data Control</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Delete Chats</strong>: You can delete individual chats or all chat history.</li>
-                    <li><strong>Clear Data</strong>: You can clear all app data through device settings.</li>
-                    <li><strong>Export Data</strong>: You can export your chat history (if supported in future updates).</li>
-                </ul>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Privacy Settings</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Chat History</strong>: You can disable chat history storage.</li>
-                    <li><strong>Quick Questions</strong>: You can disable quick question suggestions.</li>
-                    <li><strong>Session Management</strong>: You can control automatic chat creation.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Children's Privacy</h2>
-                <p class="text-gray-700">Our Service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
-            </section>
-
-             <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Data Retention</h2>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Chat Data</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Local Storage</strong>: Chat data is stored locally on your device.</li>
-                    <li><strong>Automatic Cleanup</strong>: Old chats may be automatically archived to prevent data overflow.</li>
-                    <li><strong>User Control</strong>: You can delete chats at any time.</li>
-                </ul>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">App Data</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Settings</strong>: App preferences are stored until you change or delete them.</li>
-                    <li><strong>Session Data</strong>: Session information is cleared when you restart the app.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Third-Party Services</h2>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">No Third-Party Integrations</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>No External APIs</strong>: We do not use third-party APIs for data processing.</li>
-                    <li><strong>No Cloud Services</strong>: We do not use cloud storage services.</li>
-                    <li><strong>No Analytics</strong>: We do not use external analytics services.</li>
-                </ul>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">AI Processing</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Local Processing</strong>: AI responses are generated locally on your device.</li>
-                    <li><strong>No Data Transmission</strong>: Your questions are not sent to external AI services.</li>
-                    <li><strong>Privacy-First</strong>: All AI interactions remain on your device.</li>
-                </ul>
-            </section>
-            
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">International Users</h2>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Data Location</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Local Storage</strong>: All data is stored locally on your device.</li>
-                    <li><strong>No International Transfer</strong>: Data is not transferred across international borders.</li>
-                    <li><strong>Local Processing</strong>: All processing happens on your device.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Changes to This Privacy Policy</h2>
-                <p class="text-gray-700">We may update our Privacy Policy from time to time. We will notify you of any changes by:</p>
-                <ul class="list-disc list-inside text-gray-700 space-y-2 mt-2">
-                    <li><strong>In-App Notification</strong>: Showing a notification when you open the app.</li>
-                    <li><strong>Version Update</strong>: Including changes in app update notes.</li>
-                    <li><strong>Date Update</strong>: Updating the "Last updated" date at the top of this policy.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Contact Us</h2>
-                <p class="text-gray-700">If you have any questions about this Privacy Policy, please contact us:</p>
-                <ul class="list-disc list-inside text-gray-700 space-y-2 mt-2">
-                    <li><strong>Email</strong>: [dubezzapps@gmail.com]</li>
-                    <li><strong>App Support</strong>: Through the app's help section</li>
-                    
-                </ul>
-            </section>
-            
-            <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Compliance</h2>
-                <p class="text-gray-700">This Privacy Policy complies with:</p>
-                <ul class="list-disc list-inside text-gray-700 space-y-2 mt-2">
-                    <li>Google Play Store Requirements</li>
-                    <li>Android Privacy Guidelines</li>
-                    <li>General Data Protection Regulation (GDPR)</li>
-                    <li>California Consumer Privacy Act (CCPA)</li>
-                </ul>
-            </section>
-
-             <section>
-                <h2 class="text-2xl font-semibold text-gray-900">Data Safety Declaration</h2>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Data Collection</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Personal Information</strong>: Chat messages and user preferences.</li>
-                    <li><strong>Usage Data</strong>: App interaction and performance data.</li>
-                    <li><strong>Device Information</strong>: Basic device and app version information.</li>
-                </ul>
-                <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Data Usage</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>App Functionality</strong>: To provide chat services and maintain conversation history.</li>
-                    <li><strong>App Improvement</strong>: To enhance features and fix bugs.</li>
-                    <li><strong>User Experience</strong>: To personalize the spiritual guidance experience.</li>
-                </ul>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Data Sharing</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>No Sharing</strong>: We do not share your data with third parties.</li>
-                    <li><strong>Local Only</strong>: All data remains on your device.</li>
-                    <li><strong>No Advertising</strong>: We do not use your data for advertising.</li>
-                </ul>
-                 <h3 class="text-xl font-semibold mt-6 mb-2 text-gray-800">Data Security</h3>
-                 <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li><strong>Local Encryption</strong>: Data is encrypted using device security features.</li>
-                    <li><strong>No Cloud Storage</strong>: Data is not stored on external servers.</li>
-                    <li><strong>User Control</strong>: You have full control over your data.</li>
-                </ul>
-            </section>
-        </main>
+        <h2>Information We Collect</h2>
         
-        <footer class="mt-12 pt-6 border-t border-gray-200 text-center">
-             <p class="text-gray-600"><strong>By using Ask ANANTA, you agree to the collection and use of information in accordance with this Privacy Policy.</strong></p>
-        </footer>
+        <h3>Personal Information</h3>
+        <ul>
+            <li><strong>Chat Messages</strong>: We store your chat conversations with our AI assistant locally on your device to provide contextual responses and maintain chat history</li>
+            <li><strong>Chat Names</strong>: We store custom chat names you create for organizing your conversations locally on your device</li>
+            <li><strong>Kundali Information</strong>: If you choose to use the Kundali feature, birth details (date, time, place, gender) are stored locally on your device</li>
+            <li><strong>Usage Data</strong>: We collect information about how you interact with our app, including features used and session duration</li>
+        </ul>
+
+        <h3>Automatically Collected Information</h3>
+        <ul>
+            <li><strong>Device Information</strong>: Device type, operating system version, app version, and device identifiers</li>
+            <li><strong>Advertising ID</strong>: Google Advertising ID (AAID) is collected by Google AdMob for advertising purposes</li>
+            <li><strong>Usage Analytics</strong>: App performance data, crash reports, and feature usage statistics collected by AdMob</li>
+            <li><strong>Session Data</strong>: Chat session timestamps and conversation flow</li>
+        </ul>
+
+        <h3>Data Sent to Third-Party Services</h3>
+        <ul>
+            <li><strong>AI Processing</strong>: Your questions are sent to Google's Gemini API to generate AI responses. This data is processed by Google's servers.</li>
+            <li><strong>Ad Serving</strong>: Advertising data (including Advertising ID) is shared with Google AdMob for ad delivery and measurement.</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the collected information for the following purposes:</p>
+
+        <h3>Core App Functionality</h3>
+        <ul>
+            <li><strong>Chat Management</strong>: To maintain your chat history locally and provide contextual responses</li>
+            <li><strong>AI Responses</strong>: To send your questions to Google Gemini API and receive spiritual guidance responses</li>
+            <li><strong>Session Management</strong>: To create new chat sessions and manage conversation flow</li>
+            <li><strong>Memory Management</strong>: To prevent data overflow and optimize app performance</li>
+            <li><strong>Kundali Feature</strong>: To generate personalized spiritual readings based on birth details you provide</li>
+        </ul>
+
+        <h3>Advertising and Marketing</h3>
+        <ul>
+            <li><strong>Ad Display</strong>: To show relevant advertisements through Google AdMob</li>
+            <li><strong>Ad Performance</strong>: To measure ad effectiveness and optimize ad delivery</li>
+            <li><strong>Ad Personalization</strong>: To show personalized ads based on your interests (using Advertising ID)</li>
+        </ul>
+
+        <h3>App Improvement</h3>
+        <ul>
+            <li><strong>Feature Development</strong>: To understand user needs and improve app functionality</li>
+            <li><strong>Performance Optimization</strong>: To enhance app speed and reliability</li>
+            <li><strong>Bug Fixes</strong>: To identify and resolve technical issues through crash reports</li>
+        </ul>
+
+        <h3>User Experience</h3>
+        <ul>
+            <li><strong>Personalization</strong>: To provide relevant spiritual guidance based on your questions</li>
+            <li><strong>Chat Organization</strong>: To help you manage and access your conversation history</li>
+            <li><strong>Quick Questions</strong>: To provide helpful suggestions for new users</li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+
+        <h3>Local Storage</h3>
+        <ul>
+            <li><strong>SQLite Database</strong>: Your chat data, chat names, and Kundali information are stored locally on your device</li>
+            <li><strong>SharedPreferences</strong>: App settings and user preferences are stored locally</li>
+            <li><strong>Local-Only Data</strong>: Chat history, Kundali details, and app settings remain on your device</li>
+        </ul>
+
+        <h3>Third-Party Data Processing</h3>
+        <ul>
+            <li><strong>Google Gemini API</strong>: Your questions are transmitted to Google's servers for AI processing. Google processes this data according to their privacy policy.</li>
+            <li><strong>Google AdMob</strong>: Advertising data (including Advertising ID) is processed by Google AdMob according to Google's advertising policies.</li>
+        </ul>
+
+        <h3>Security Measures</h3>
+        <ul>
+            <li><strong>Local Encryption</strong>: Chat data stored locally is encrypted using Android's built-in security features</li>
+            <li><strong>HTTPS Transmission</strong>: All data transmitted to third-party services uses encrypted HTTPS connections</li>
+            <li><strong>Device-Only Access</strong>: Only you can access your locally stored chat data on your device</li>
+        </ul>
+
+        <h2>Data Sharing and Disclosure</h2>
+
+        <h3>Third-Party Services We Use</h3>
+
+        <h4>Google Gemini API</h4>
+        <ul>
+            <li><strong>Purpose</strong>: AI response generation</li>
+            <li><strong>Data Shared</strong>: Your questions and conversation context</li>
+            <li><strong>Google's Privacy Policy</strong>: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li><strong>Data Retention</strong>: Governed by Google's policies</li>
+        </ul>
+
+        <h4>Google AdMob</h4>
+        <ul>
+            <li><strong>Purpose</strong>: Advertising and ad measurement</li>
+            <li><strong>Data Shared</strong>: Advertising ID, device information, app usage data</li>
+            <li><strong>Google's Privacy Policy</strong>: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li><strong>AdMob Policies</strong>: <a href="https://support.google.com/admob/answer/6128543" target="_blank">https://support.google.com/admob/answer/6128543</a></li>
+        </ul>
+
+        <h3>We Do NOT Share Your Data With</h3>
+        <ul>
+            <li><strong>Social Media Platforms</strong>: We do not share data with social media platforms</li>
+            <li><strong>Other Advertising Networks</strong>: We only use Google AdMob</li>
+            <li><strong>Data Brokers</strong>: We do not sell or rent your data to data brokers</li>
+        </ul>
+
+        <h3>Legal Requirements</h3>
+        <p>We may disclose your information only if required by law or to:</p>
+        <ul>
+            <li>Comply with legal obligations</li>
+            <li>Protect our rights and property</li>
+            <li>Prevent fraud or security issues</li>
+            <li>Protect user safety</li>
+        </ul>
+
+        <h2>Your Rights and Choices</h2>
+
+        <h3>Data Control</h3>
+        <ul>
+            <li><strong>Delete Chats</strong>: You can delete individual chats or all chat history from within the app</li>
+            <li><strong>Clear Data</strong>: You can clear all app data through device settings</li>
+            <li><strong>Delete Kundali Data</strong>: You can delete Kundali information you've entered</li>
+            <li><strong>Reset Advertising ID</strong>: You can reset your Advertising ID through Android settings (Settings > Google > Ads > Reset advertising ID)</li>
+        </ul>
+
+        <h3>Privacy Settings</h3>
+        <ul>
+            <li><strong>Chat History</strong>: Your chat history is stored locally and can be deleted at any time</li>
+            <li><strong>Ad Personalization</strong>: You can opt out of personalized ads through Android settings</li>
+            <li><strong>Limit Ad Tracking</strong>: You can enable "Limit ad tracking" in Android settings to restrict Advertising ID usage</li>
+        </ul>
+
+        <h3>Third-Party Controls</h3>
+        <ul>
+            <li><strong>Google Account Settings</strong>: You can manage your Google account privacy settings at <a href="https://myaccount.google.com/privacy" target="_blank">https://myaccount.google.com/privacy</a></li>
+            <li><strong>AdMob Settings</strong>: You can control ad personalization through Google account settings</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Our Service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
+
+        <h2>Data Retention</h2>
+
+        <h3>Local Data</h3>
+        <ul>
+            <li><strong>Chat Data</strong>: Stored locally on your device until you delete it</li>
+            <li><strong>Kundali Information</strong>: Stored locally until you delete it</li>
+            <li><strong>App Settings</strong>: Stored locally until you change or delete them</li>
+        </ul>
+
+        <h3>Third-Party Data</h3>
+        <ul>
+            <li><strong>Google Gemini API</strong>: Data retention is governed by Google's privacy policy</li>
+            <li><strong>Google AdMob</strong>: Advertising data retention is governed by Google's advertising policies</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+
+        <h3>Google Services</h3>
+
+        <h4>Google Gemini API</h4>
+        <ul>
+            <li><strong>Service</strong>: AI response generation</li>
+            <li><strong>Data Processing</strong>: Your questions are processed on Google's servers</li>
+            <li><strong>Privacy Policy</strong>: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li><strong>Data Location</strong>: Processed on Google's servers (may be outside your country)</li>
+        </ul>
+
+        <h4>Google AdMob</h4>
+        <ul>
+            <li><strong>Service</strong>: Advertising platform</li>
+            <li><strong>Data Processing</strong>: Advertising ID and usage data are processed by Google</li>
+            <li><strong>Privacy Policy</strong>: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li><strong>AdMob Policies</strong>: <a href="https://support.google.com/admob/answer/6128543" target="_blank">https://support.google.com/admob/answer/6128543</a></li>
+        </ul>
+
+        <h3>Your Consent</h3>
+        <p>By using our app, you consent to:</p>
+        <ul>
+            <li>Data processing by Google Gemini API for AI responses</li>
+            <li>Data collection and sharing with Google AdMob for advertising</li>
+            <li>The privacy practices described in this policy</li>
+        </ul>
+
+        <h2>International Users</h2>
+
+        <h3>Data Location</h3>
+        <ul>
+            <li><strong>Local Data</strong>: Stored on your device in your location</li>
+            <li><strong>Third-Party Processing</strong>: Data sent to Google services may be processed in servers located outside your country</li>
+            <li><strong>Data Transfer</strong>: By using our app, you consent to the transfer of your data to Google's servers, which may be located in different countries</li>
+        </ul>
+
+        <h2>Advertising ID (Android Advertising ID)</h2>
+
+        <h3>What is Advertising ID?</h3>
+        <p>The Android Advertising ID (AAID) is a unique, user-resettable identifier for advertising, provided by Google Play services.</p>
+
+        <h3>How We Use Advertising ID</h3>
+        <ul>
+            <li><strong>Ad Delivery</strong>: To show you relevant advertisements</li>
+            <li><strong>Ad Measurement</strong>: To measure ad performance and effectiveness</li>
+            <li><strong>Ad Personalization</strong>: To personalize ads based on your interests (if you haven't opted out)</li>
+        </ul>
+
+        <h3>Your Control</h3>
+        <ul>
+            <li><strong>Reset ID</strong>: You can reset your Advertising ID at any time (Settings > Google > Ads > Reset advertising ID)</li>
+            <li><strong>Opt Out</strong>: You can opt out of personalized ads (Settings > Google > Ads > Opt out of Ads Personalization)</li>
+            <li><strong>Limit Tracking</strong>: You can limit ad tracking in your device settings</li>
+        </ul>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by:</p>
+        <ul>
+            <li><strong>In-App Notification</strong>: Showing a notification when you open the app after an update</li>
+            <li><strong>Version Update</strong>: Including changes in app update notes on Google Play</li>
+            <li><strong>Date Update</strong>: Updating the "Last updated" date at the top of this policy</li>
+        </ul>
+        <p>Your continued use of the Service after any changes constitutes acceptance of the updated Privacy Policy.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <ul>
+            <li><strong>Email</strong>: [dubezzapps@gmail.com]</li>
+            <li><strong>App Support</strong>: Through the app's help section</li>
+            <li><strong>Website</strong>: <a href="https://dubezzapps.github.io/ask-ananta-privacy/">https://dubezzapps.github.io/ask-ananta-privacy/</a></li>
+            <li><strong>Privacy Policy URL</strong>: <a href="https://dubezzapps.github.io/ask-ananta-privacy/">https://dubezzapps.github.io/ask-ananta-privacy/</a></li>
+        </ul>
+
+        <h2>Compliance</h2>
+        <p>This Privacy Policy complies with:</p>
+        <ul>
+            <li><strong>Google Play Store Requirements</strong></li>
+            <li><strong>Android Privacy Guidelines</strong></li>
+            <li><strong>Google AdMob Policies</strong></li>
+            <li><strong>General Data Protection Regulation (GDPR)</strong></li>
+            <li><strong>California Consumer Privacy Act (CCPA)</strong></li>
+            <li><strong>Children's Online Privacy Protection Act (COPPA)</strong></li>
+        </ul>
+
+        <h2>Data Safety Declaration</h2>
+
+        <h3>Data Collection</h3>
+        <ul>
+            <li><strong>Personal Information</strong>: Chat messages, chat names, and Kundali information (stored locally)</li>
+            <li><strong>Device Information</strong>: Device type, OS version, app version, device identifiers</li>
+            <li><strong>Advertising ID</strong>: Google Advertising ID (collected by AdMob)</li>
+            <li><strong>Usage Data</strong>: App interaction and performance data (collected by AdMob)</li>
+        </ul>
+
+        <h3>Data Usage</h3>
+        <ul>
+            <li><strong>App Functionality</strong>: To provide chat services, AI responses, and maintain conversation history</li>
+            <li><strong>Advertising</strong>: To display and measure advertisements</li>
+            <li><strong>App Improvement</strong>: To enhance features and fix bugs</li>
+        </ul>
+
+        <h3>Data Sharing</h3>
+        <ul>
+            <li><strong>Google Gemini API</strong>: Your questions are shared with Google for AI processing</li>
+            <li><strong>Google AdMob</strong>: Advertising ID and usage data are shared with Google for advertising</li>
+            <li><strong>No Other Sharing</strong>: We do not share your data with any other third parties</li>
+        </ul>
+
+        <h3>Data Security</h3>
+        <ul>
+            <li><strong>Local Encryption</strong>: Locally stored data is encrypted using device security features</li>
+            <li><strong>HTTPS</strong>: All data transmission uses encrypted HTTPS connections</li>
+            <li><strong>User Control</strong>: You have full control over your locally stored data</li>
+        </ul>
+
+        <div class="summary-box">
+            <h3>Summary</h3>
+            <p><strong>What We Collect:</strong></p>
+            <ul>
+                <li>Chat messages (stored locally)</li>
+                <li>Kundali information (stored locally)</li>
+                <li>Advertising ID (collected by AdMob)</li>
+                <li>Device information (collected by AdMob)</li>
+            </ul>
+            
+            <p><strong>What We Share:</strong></p>
+            <ul>
+                <li>Your questions → Google Gemini API (for AI responses)</li>
+                <li>Advertising data → Google AdMob (for ads)</li>
+            </ul>
+            
+            <p><strong>What We Don't Share:</strong></p>
+            <ul>
+                <li>Your chat history (stored locally only)</li>
+                <li>Your Kundali details (stored locally only)</li>
+                <li>Your personal information with any other third parties</li>
+            </ul>
+            
+            <p><strong>Your Rights:</strong></p>
+            <ul>
+                <li>Delete your data anytime</li>
+                <li>Reset your Advertising ID</li>
+                <li>Opt out of personalized ads</li>
+                <li>Control your privacy settings</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>By using Ask ANANTA, you agree to the collection and use of information in accordance with this Privacy Policy.</strong></p>
+            <p>If you do not agree with this policy, please do not use our Service.</p>
+        </div>
     </div>
 </body>
 </html>
